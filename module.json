@@ -1,69 +1,66 @@
 {
-  "id": "terrand-pf2e-content",
-  "title": "Terrand Pf2e Content",
-  "version": "1.1.0",
-  "url": "https://github.com/Reversewizard/Terrand-pf2e-content",
-  "manifest": "https://raw.githubusercontent.com/Reversewizard/Terrand-pf2e-content/master/module.json",
-  "download": "https://github.com/Reversewizard/Terrand-pf2e-content/archive/refs/heads/main.zip",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11"
-  },
-  "authors": [
-    {
-      "name": "Ai"
-    }
-  ],
-  "packs": [
-    {
-      "name": "terrand-deities",
-      "label": "Terrand Deities",
-      "path": "packs/terrand-deities",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+    "id": "terrand-pf2e-content",
+    "title": "Terrand Pf2e Content",
+    "version": "1.1.0",
+    "url": "https://github.com/Reversewizard/Terrand-pf2e-content",
+    "manifest": "https://raw.githubusercontent.com/Reversewizard/Terrand-pf2e-content/master/module.json",
+    "download": "https://github.com/Reversewizard/Terrand-pf2e-content/archive/refs/heads/main.zip",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
     },
-    {
-      "name": "terrand-ancestries",
-      "label": "Terrand Ancestries",
-      "path": "packs/terrand-ancestries",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    }
-  ],
-  "description": "Homebrew content for pf2e focusing on the setting of Terrand"
-  "flags": {
-    "terrand-pf2e-content": {
-      "pf2e-homebrew": {
-        "baseWeapons": {
-          "mace-ax": "Mace-Ax",
-        },
-        "creatureTraits": {
-          "gaelucen": "Gaelucen",
-          "jehyle": "Jehyle"
-        },
-        "featTraits": {
-          "gaelucen": "Gaelucen",
-          "jehyle": "Jehyle"
-        },
-        "weaponTraits": {
-          "gaelucen": {
-            "label": "Gaelucen",
-            "description": "Gaelucen are an ancestry of headless fey"
-          },
-          "jehyle": {
-            "label": "Jehyle",
-            "description": "Jehyle are a family of jackyl-like humanoids"
-          }
+    "authors": [{
+            "name": "Ai"
         }
-      }
+    ],
+    "packs": [{
+            "name": "terrand-deities",
+            "label": "Terrand Deities",
+            "path": "packs/terrand-deities",
+            "type": "Item",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        }, {
+            "name": "terrand-ancestries",
+            "label": "Terrand Ancestries",
+            "path": "packs/terrand-ancestries",
+            "type": "Item",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        }
+    ],
+    "description": "Homebrew content for pf2e focusing on the setting of Terrand"
+    "flags": {
+        "terrand-pf2e-content": {
+            "pf2e-homebrew": {
+                "baseWeapons": {
+                    "mace-ax": "Mace-Ax"
+                },
+                "creatureTraits": {
+                    "gaelucen": "Gaelucen",
+                    "jehyle": "Jehyle"
+                },
+                "featTraits": {
+                    "gaelucen": "Gaelucen",
+                    "jehyle": "Jehyle"
+                },
+                "weaponTraits": {
+                    "gaelucen": {
+                        "label": "Gaelucen",
+                        "description": "Gaelucen are an ancestry of headless fey"
+                    },
+                    "jehyle": {
+                        "label": "Jehyle",
+                        "description": "Jehyle are a family of jackyl-like humanoids"
+                    }
+                }
+            }
+        }
     }
-  }
 }
