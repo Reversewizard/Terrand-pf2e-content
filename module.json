@@ -4,7 +4,7 @@
   "version": "1.1.0",
   "url": "https://github.com/YourName/PF2e-Example",
   "manifest": "https://raw.githubusercontent.com/Reversewizard/Terrand-pf2e-content/master/module.json",
-  "download": "https://github.com/Reversewizard/Terrand-pf2e-content/archive/refs/heads/main.zip"m
+  "download": "https://github.com/Reversewizard/Terrand-pf2e-content/archive/refs/heads/main.zip",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
